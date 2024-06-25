@@ -12,12 +12,13 @@ import subprocess
 
 
 def Clone(name):
-    source = f"{name}"
-    Desktop = os.path.expanduser("~/Desktop")
     subprocess.run(
         f" git clone https://github.com/{author}/{name}",
         shell=True
     )
+    
+    source = f"clone/{name}"
+    Desktop = os.path.expanduser("~/Desktop")
     shutil.move(source, Desktop)
 
 
@@ -43,7 +44,65 @@ if __name__ == "__main__":
     list_name = [ 
     # "Kho-Link",  
     # "Kho-Slide",  
-    "Kho-Data",  
+    # "Kho1",  
+    # "Kho2",  
+    # "Kho3",  
+    # "Kho4",  
+    # "Kho5",  
+    # "Kho6",  
+    # "Kho7",  
+    # "Kho8",  
+    # "Kho9",  
+    # "Kho10",  
+    # "Kho11",  
+    # "Kho12",  
+    # "Kho13",  
+    # "Kho14",  
+    # "Kho15",  
+    # "Kho16",  
+    # "Kho17",  
+    # "Kho10",  
+    # "Kho10",  
+    # "Kho10",  
+    # "Kho2",  
+    # "Kho2",  
+    # "Kho2",  
+    # "Kho4",  
+
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# "HHTQD",
+# 
+# 
+# 
+# 
+# 
+# # 
+# # 
+# # 
+# # 
+#     "AI-MH-SUM",
+# "AI-BaoCao",
+# "AI-Slide",
+# "AI-Hoc",
+# "AI",
+
+
+
+
+
+
+
     ]
 
     list_name = list(set(list_name))
@@ -51,16 +110,19 @@ if __name__ == "__main__":
     print(len(list_name))
 
     for name in list_name:
+        print(f"🚀 {name}")
+# gh auth login
+#  gh auth refresh -h github.com -s delete_repo
         
         
         
         
         # Zip(name)
-        Clone(name)
+        # Clone(name)
 
 
 
-        # Delete(name)
+        Delete(name)
         # Create(name)
 
  
