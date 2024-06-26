@@ -40,42 +40,9 @@ if __name__ == "__main__":
     author = "vuvannghia452002"
 
     list_name = [
-        # "Kho-Link",
-        # "Kho-Slide",
-        # "Kho1",
-        # "Kho2",
-        # "Kho3",
-        # "Kho4",
-        # "Kho5",
-        # "Kho6",
-        # "Kho7",
-        # "Kho8",
-        # "Kho9",
-        # "Kho10",
-        # "Kho11",
-        # "Kho12",
-        # "Kho13",
-        # "Kho14",
-        # "Kho15",
-        # "Kho16",
-        # "Kho17",
-        # "Kho10",
-        # "Kho10",
-        # "Kho10",
-        # "Kho2",
-        # "Kho2",
-        # "Kho2",
-        # "Kho4",
 
-
-        # "HHTQD",
-        #
-        #
-
-
-
-
-
+        "DualBoot",
+        "v2ray-ubuntu",
 
     ]
 
@@ -95,8 +62,4 @@ if __name__ == "__main__":
         # Create(name)
 
 
-# vercel remove --yes notifications
-
-#  vercel remove --yes django-hello-world
 #  vercel remove --yes flask-hello-world
-#  vercel remove --yes flask-hello-world-fz8l
